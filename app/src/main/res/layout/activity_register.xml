@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Shard.Register">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/hammersmith_one"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="#201F1F"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edit_text_bg"
+        android:fontFamily="@font/hind_madurai_light"
+        android:hint="Username"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="Password"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/hind_madurai_light"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/edt_conf_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="Cunform Password"
+        android:fontFamily="@font/hind_madurai_light"
+        android:layout_marginTop="25dp"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/btn_bg"
+        android:fontFamily="@font/hind_guntur_bold"
+        android:text="Register"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Shard.Login">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:fontFamily="@font/hammersmith_one"
+        android:textColor="#201F1F"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_lg_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="Username"
+        android:fontFamily="@font/hind_madurai_light"
+        android:layout_marginTop="50dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/edt_lg_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="Password"
+        android:fontFamily="@font/hind_madurai_light"
+        android:layout_marginTop="25dp"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/tv_error"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#EF5350"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="7dp"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/btn_bg"
+        android:fontFamily="@font/hind_guntur_bold"
+        android:text="Login"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+</LinearLayout>
